@@ -254,7 +254,7 @@ Optional inputs:\
 
 ## Running HNSW traversal with DOCK scoring
 ```
-python ../hnsw/traverse_hnsw_dock.py --hnsw_path hnsw_out/hnsw_index --sql_path hnsw_out/node_info.db --n_to_score 100000
+python ../hnsw/traverse_hnsw_dock.py --hnsw_path hnsw_out/hnsw_index --sql_path hnsw_out/node_info.db --n_to_score 100000 --redis_port 6378
 ```
 
 This script will traverse 100,000 nodes of the HNSW using the actual DOCK score
