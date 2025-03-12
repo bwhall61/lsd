@@ -1,7 +1,7 @@
 The following is a loose collection of scripts for recreating the proof of concept experiments done in the [lsd.docking.org paper](https://www.biorxiv.org/content/10.1101/2025.02.25.639879v1)
 
 ## Requirements:
-redis\
+[redis](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) (which must be installed separately)\
 rad\
 pyarrow\
 stringzilla\
